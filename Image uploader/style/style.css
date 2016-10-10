@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#uploadButton {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -100px;
+    z-index: 1;
+}
+
+#dropbox {
+    position: absolute;;;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+#uploadArea {
+    top: 0;
+    height: 100%;
+    z-index: -102;
+}
+
+#uploadArea, #uploadArea-2 {
+    position: absolute;
+    width: 100%;
+}
+
+#uploadArea-2 {
+    border-top: 2px dashed black;
+    background-color: #009688;
+    min-height: 100%;
+    top: 100%;
+    z-index: -100;
+}
+
+#uploadButton-2 {
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    z-index: 100;
+}
+
+#dropbox-2 {
+    position: absolute;;;
+    width: 100%;
+    min-height: 100%;
+}
+
+.popup {
+    position: fixed;
+    font-size: 30px;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+    top: 50%;
+}
+
+.dragover {
+    background-color: #E6E6FA;
+}
+
+.dragleave, .drop {
+    background-color: #fff;
+}
+
+.image {
+    cursor: pointer;
+    position: relative;
+    z-index: 100;
+
+}
+
+.division {
+    margin-top: 30px;
+    padding: 30px;
+    target-new: window;
+    display: inline-block;
+    z-index: 100;
+}
